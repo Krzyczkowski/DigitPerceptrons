@@ -9,7 +9,7 @@
 ![Percepton](./screenshots/5.gif)
 
 ### Files:
-`perceptron1.js` - main perceptron handling code
-`pixel.js` - handling the interface and calling functions exported from perceptron1.js
+`perceptron1.js` - main perceptron handling code \
+`pixel.js` - handling the interface and calling functions exported from perceptron1.js \
 `data.js` -dataset for perceptron learning
 
