@@ -4,6 +4,7 @@
 
 #### https://en.wikipedia.org/wiki/Perceptron
 ### It is a simple web application written in Javascript that recognizes a number based on the data entered by the user.
+## Live preview: https://krzyczkowski.github.io/DigitPerceptrons/
 
 ![Percepton](./screenshots/49.gif)
 ![Percepton](./screenshots/5.gif)
