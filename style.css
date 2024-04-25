@@ -1,0 +1,87 @@
+body{
+margin:0rem 3rem;
+
+font-family: 'Courier New', Courier, monospace;
+background-color: black;
+color:white;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2rem;
+}
+button{
+    padding:0.3rem;
+    border:0;
+    margin-top: 1rem;
+    font-size:2rem;
+    background-color: white;
+}
+button:hover{
+    background-color: #ddd;
+}
+img{
+    width:8rem;
+    margin-top:2rem;
+}
+
+.pixel{
+height:3rem;
+width:3rem;
+margin:0.17rem;
+background-color:#ddd;
+}
+.pixel:hover:not(.selected_pixel){
+    background-color:#eee;
+}
+.row{
+display:flex;
+flex-direction:row;
+}
+
+.selected_pixel{
+background-color: red;
+}
+
+#pixelsBinaryPanel{
+display:flex;
+width: 12rem;
+border: 1px dashed black;
+justify-content:center;
+align-items:start;
+height:fit-content;
+margin-top:10rem;
+}
+#savedBinaries{
+display:flex;
+flex-direction:column;
+}
+
+#perceptrons{
+    display:flex;
+    flex-direction: row;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+#perceptrons div{
+    margin:0.2rem;
+    font-size: 3rem;
+    border: 2px solid white;
+    padding: 0.4rem;
+    
+}
+#perceptrons div:hover{
+    background-color: rgb(68, 68, 68);
+}
+#mainSection{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+.active {
+    color:greenyellow !important;
+    border:2px solid greenyellow !important;
+}
